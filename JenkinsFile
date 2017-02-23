@@ -34,7 +34,7 @@ node('linux') {
             browser: [$class: 'GithubWeb', repoUrl: ''], doGenerateSubmoduleConfigurations: false, \
             extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'appimage-template']], submoduleCfg: [], \
             userRemoteConfigs: [[url: 'https://github.com/appimage-packages/appimage-template']]]
-            checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, \
+            checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: 'kf5']], doGenerateSubmoduleConfigurations: false, \
             extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'simon']], submoduleCfg: [], userRemoteConfigs: [[url: 'https://anongit.kde.org/simon']]]
        }
         stage( 'Setup' ) {
