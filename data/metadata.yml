@@ -52,6 +52,7 @@ frameworks:
     - khtml
     - kdesignerplugin
     - kunitconversion
+    - kinit
     - kded
     - kdelibs4support
     - kcmutils
