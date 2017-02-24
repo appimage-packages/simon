@@ -47,6 +47,9 @@ frameworks:
     - plasma-framework
     - kdecoration
     - breeze
+    - khtml
+    - kdelibs4support
+    - kcmutils
 type: git
 url: http://anongit.kde.org/simon
 buildsystem: cmake
