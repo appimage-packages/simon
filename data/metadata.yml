@@ -50,6 +50,7 @@ frameworks:
     - kjs
     - kparts
     - khtml
+    - kdesignerplugin
     - kdelibs4support
     - kcmutils
 type: git
