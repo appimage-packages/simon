@@ -47,6 +47,7 @@ frameworks:
     - plasma-framework
     - kdecoration
     - breeze
+    - kjs
     - khtml
     - kdelibs4support
     - kcmutils
