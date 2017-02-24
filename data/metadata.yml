@@ -55,6 +55,7 @@ frameworks:
     - kinit
     - kded
     - kemoticons
+    - kitemmodels
     - kdelibs4support
     - kcmutils
 type: git
