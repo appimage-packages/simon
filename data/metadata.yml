@@ -48,6 +48,7 @@ frameworks:
     - kdecoration
     - breeze
     - kjs
+    - kparts
     - khtml
     - kdelibs4support
     - kcmutils
