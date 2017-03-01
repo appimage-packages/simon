@@ -3,6 +3,7 @@ binary: simon
 packages:
   - libsamplerate0-dev
   - libpocketsphinx-dev
+  - subversion
 frameworks:
   build_kf5: true
   frameworks:
@@ -80,3 +81,11 @@ dependencies:
       source:
         type: zip
         url: 'http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/3.2.0/opencv-3.2.0.zip'
+  - qwt:
+      build:
+        buildsystem: qmake
+        buildoptions:  'qmake "PREFIX = /opt/usr" qwt.pro'
+      depname: qwt-6.1
+      source:
+        type: svn
+        url: 'svn://svn.code.sf.net/p/qwt/code/branches/qwt-6.1'
