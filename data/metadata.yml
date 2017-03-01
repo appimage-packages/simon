@@ -84,7 +84,7 @@ dependencies:
   - qwt:
       build:
         buildsystem: custom
-        buildoptions: 'sed s#/usr/local/qwt-$$QWT_VERSION-svn#/opt/usr#g -i qwtconfig.pri && qmake qwt.pro && make && make install'
+        buildoptions: 'sed s#/usr/local/qwt-$$QWT_VERSION-svn#/opt/usr#g -i qwtconfig.pri.in && qmake qwt.pro && make && make install'
       depname: qwt-6.1
       source:
         type: svn
