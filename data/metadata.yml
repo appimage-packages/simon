@@ -83,8 +83,8 @@ dependencies:
         url: 'http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/3.2.0/opencv-3.2.0.zip'
   - qwt:
       build:
-        buildsystem: qmake
-        buildoptions: '"PREFIX=/opt/usr" qwt.pro'
+        buildsystem: custom
+        buildoptions: 'qmake "PREFIX=/opt/usr" qwt.pro'
       depname: qwt-6.1
       source:
         type: svn
