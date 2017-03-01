@@ -84,7 +84,7 @@ dependencies:
   - qwt:
       build:
         buildsystem: custom
-        buildoptions: 'qmake "PREFIX=/opt/usr" qwt.pro'
+        buildoptions: 'qmake "PREFIX=/opt/usr" qwt.pro && make && make install'
       depname: qwt-6.1
       source:
         type: svn
