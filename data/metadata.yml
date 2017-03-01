@@ -84,7 +84,7 @@ dependencies:
   - qwt:
       build:
         buildsystem: custom
-        buildoptions: 'qmake INSTALL=/opt/usr QWT_INSTALL_DOCS=/opt/usr/doc QWT_INSTALL_HEADERS=/opt/usr/include QWT_INSTALL_LIBS=/opt/usr/lib qwt.pro && make && make install'
+        buildoptions: 'qmake INSTALL += /opt/usr QWT_INSTALL_DOCS = /opt/usr/doc QWT_INSTALL_HEADERS = /opt/usr/include QWT_INSTALL_LIBS = /opt/usr/lib qwt.pro && make && make install'
       depname: qwt-6.1
       source:
         type: svn
